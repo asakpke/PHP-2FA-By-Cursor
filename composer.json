@@ -1,0 +1,16 @@
+{
+    "name": "roshantech/auth-app",
+    "description": "PHP Authentication Application",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "vlucas/phpdotenv": "^5.5",
+        "robthree/twofactorauth": "^3.0",
+        "spomky-labs/otphp": "^11.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
